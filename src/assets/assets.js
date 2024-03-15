@@ -81,3 +81,55 @@ export const assets = {
     logout_icon,
     parcel_icon
 }
+export const menu_list = [
+    {
+        menu_name: "Salad",
+        menu_image: menu1
+    },
+    {
+        menu_name: "Rolls",
+        menu_image: menu2
+    },
+    {
+        menu_name: "Deserts",
+        menu_image: menu3
+    },
+    {
+        menu_name: "Sandwitch",
+        menu_image: menu4
+    },
+    {
+        menu_name: "Cake",
+        menu_image: menu5
+    },
+    {
+        menu_name: "Pure Veg",
+        menu_image: menu6
+    },
+    {
+        menu_name: "Pasta",
+        menu_image: menu7
+    },
+    {
+        menu_name: "Noodles",
+        menu_image: menu8
+    }
+]
+
+export const food_list = [
+    {
+        _id: "1",
+        name: "Greek salad",
+        price: 12,
+        description: "Food provides essential nutrients for overall health and well-being",
+        category: "Salad"
+    },
+    {
+        _id: "2",
+        name: "Veg salad",
+        image: food_2,
+        price: 18,
+        description: "Food provides essential nutrients for overall health and well-being",
+
+    }
+]

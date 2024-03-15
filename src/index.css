@@ -19,3 +19,13 @@ a{
   width: 80%;
   margin: auto;
 }
+
+/* for home page transion animation making using this fadeIn property  */
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
